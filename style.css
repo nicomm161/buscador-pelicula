@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo global */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* Estilo del contenedor principal */
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: center;
+}
+
+/* Estilo del título */
+.container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilo del campo de entrada */
+#searchInput {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* Estilo del botón */
+#searchButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#searchButton:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo del contenedor de resultados */
+#results {
+  margin-top: 20px;
+  text-align: left;
+  color: #333;
+}
+
+/* Estilo de cada película */
+.movie {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Estilo del póster */
+.movie img {
+  max-width: 100px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+/* Estilo del contenido de la película */
+.movie h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.movie p {
+  margin: 5px 0;
+}
